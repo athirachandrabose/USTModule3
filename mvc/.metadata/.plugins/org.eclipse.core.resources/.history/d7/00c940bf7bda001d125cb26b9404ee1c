@@ -1,0 +1,6 @@
+
+
+Spring.datasource.driver-class-name=	com.mysql.cj.jdbc.Driver.	
+Spring.datasource.url=jdbc://localhost:3306/sakila
+Spring.datasource.username=root
+Spring.datasource.password=pass@word1

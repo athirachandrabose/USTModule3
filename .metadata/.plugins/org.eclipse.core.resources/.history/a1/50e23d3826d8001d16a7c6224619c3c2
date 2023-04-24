@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation=" http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--<bean name="connection" class="com.ust.ioc.dbConnection" >
+	<property name="url" value="jdbc:mysql://localhost:3306/sakila"></property>
+	<property name="dbUsername" value="root"></property>
+	<property name="dbPassword" value="pass@word1"></property>
+</bean>
+<bean name="login" class="com.ust.ioc.Login">
+<property name="db" ref="connection"></property>
+</bean>
+<bean name="point1" class="com.ust.ioc2.Point">
+	<property name="x" value="1" ></property>
+	<property name="y" value="1" ></property>
+</bean>
+<bean name="point2" class="com.ust.ioc2.Point">
+	<property name="x" value="5" ></property>
+	<property name="y" value="10" ></property>
+</bean>
+
+<bean name="line" class="com.ust.ioc2.Line" scope="prototype">-->
+<!-- every time bean is requested a new instance is returned 2 container-applicationcontext,beanfactory 4 scopes -default is singelton session,request,prototype-->
+	<!--<property name="p1" ref="point1"></property>
+	<property name="p2" ref="point2"></property>
+	
+</bean>
+</beans>
+-->
+<bean name="p1" class="com.ust.ioc2.Point">
+	<constructor-arg name="x" value="10"></constructor-arg>
+	<constructor-arg name="y" value="11"></constructor-arg>
+</bean>
+<bean name="p2" class="com.ust.ioc2.Point">
+	<constructor-arg name="x" value="20"></constructor-arg>
+	<constructor-arg name="y" value="22"></constructor-arg>
+</bean>
+<bean name="line" class="com.ust.ioc2.Line">
+	<constructor-arg name="p1" ref="p1"></constructor-arg>
+	<constructor-arg name="p2" ref="p2"></constructor-arg>
+</bean>
+</beans>
