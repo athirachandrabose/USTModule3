@@ -1,0 +1,33 @@
+2023-04-24 12:01:46.777  INFO 5088 --- [restartedMain] com.ust.rest.FirstrestApplication        : Starting FirstrestApplication using Java 16.0.2 on 9e37749c70ef548 with PID 5088 (D:\module3\mvc\firstrestLogger\target\classes started by Administrator in D:\module3\mvc\firstrestLogger)
+2023-04-24 12:01:46.779  INFO 5088 --- [restartedMain] com.ust.rest.FirstrestApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:01:47.088  INFO 5088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 12:01:47.092  INFO 5088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24 12:01:47.092  INFO 5088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 12:01:47.118  INFO 5088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24 12:01:47.119  INFO 5088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 337 ms
+2023-04-24 12:01:47.242  INFO 5088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24 12:01:47.255  INFO 5088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24 12:01:47.264  INFO 5088 --- [restartedMain] com.ust.rest.FirstrestApplication        : Started FirstrestApplication in 0.546 seconds (JVM running for 193.507)
+2023-04-24 12:01:47.268  INFO 5088 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24 12:01:47.269  INFO 5088 --- [restartedMain] com.ust.rest.FirstrestApplication        : Application started sucessfully
+2023-04-24 12:01:47.269  WARN 5088 --- [restartedMain] com.ust.rest.FirstrestApplication        : vulnerabilities found
+2023-04-24 12:01:47.269 ERROR 5088 --- [restartedMain] com.ust.rest.FirstrestApplication        : restart the application
+2023-04-24 12:02:12.922  INFO 5088 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24 12:02:12.930  INFO 5088 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24 12:02:18.140  INFO 12468 --- [restartedMain] com.ust.rest.FirstrestApplication        : Starting FirstrestApplication using Java 16.0.2 on 9e37749c70ef548 with PID 12468 (D:\module3\mvc\firstrestLogger\target\classes started by Administrator in D:\module3\mvc\firstrestLogger)
+2023-04-24 12:02:18.143  INFO 12468 --- [restartedMain] com.ust.rest.FirstrestApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:02:18.219  INFO 12468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24 12:02:18.220  INFO 12468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24 12:02:19.601  INFO 12468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24 12:02:19.617  INFO 12468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24 12:02:19.618  INFO 12468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 12:02:19.724  INFO 12468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24 12:02:19.725  INFO 12468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1504 ms
+2023-04-24 12:02:20.402  INFO 12468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24 12:02:20.460  INFO 12468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24 12:02:20.479  INFO 12468 --- [restartedMain] com.ust.rest.FirstrestApplication        : Started FirstrestApplication in 2.91 seconds (JVM running for 4.009)
+2023-04-24 12:02:20.485  INFO 12468 --- [restartedMain] com.ust.rest.FirstrestApplication        : Application started sucessfully
+2023-04-24 12:02:20.486  WARN 12468 --- [restartedMain] com.ust.rest.FirstrestApplication        : vulnerabilities found
+2023-04-24 12:02:20.486 ERROR 12468 --- [restartedMain] com.ust.rest.FirstrestApplication        : restart the application
+2023-04-24 12:05:03.774  INFO 12468 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 12:05:03.794  INFO 12468 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

@@ -32,6 +32,11 @@ public Product FetchProduct(@PathVariable long productId) {
 return service.getProduct(productId);	
 }
 @GetMapping
+public String test () {
+	return "test() called.............";
+}
+
+@GetMapping
 @RequestMapping("/retrieve/all")
 public List<Product> FetchProduct() {
 return service.getproducts();	

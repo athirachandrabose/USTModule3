@@ -20,7 +20,7 @@ import com.ust.rest.resource.Product;
 import com.ust.rest.services.ProductService;
 
 @RestController
-@RequestMapping("/product/api.1.0")
+@RequestMapping("/")
 public class ProductResource {
 	@Autowired
 	ProductService service;
